@@ -20,20 +20,73 @@ body {
   background-color: var(--White);
   background-image: url(./images/bg-pattern-top-mobile.svg);
   background-repeat: no-repeat;
+  text-align: center;
 }
 
 .container {
   display: flex;
   flex-direction: column;
   gap: 2.5em;
-  text-align: center;
   margin: 3em 2em;
 }
 
 .heading {
   color: var(--Very-Dark-Magenta);
+  margin-bottom: 1em;
 }
 
 .paragraph-header {
   font-weight: 200;
+}
+
+.stars {
+  margin-bottom: 2em;
+  font-weight: 700;
+  font-size: 12px;
+  color: hsl(300, 43%, 22%);
+  background-color: var(--Light-Grayish-Magenta);
+  padding: 1em 3em;
+  border-radius: 1em;
+}
+
+.rating {
+  margin-top: 0.5em;
+}
+
+.buyer {
+  background-color: var(--Very-Dark-Magenta);
+  padding: 2em;
+  margin: 1em;
+  border-radius: 0.5em;
+  color: white;
+  text-align: left;
+}
+
+.verified {
+  color: var(--Soft-Pink);
+}
+
+.pic {
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+}
+
+.flex {
+  margin-bottom: 1em;
+  display: flex;
+  align-items: center;
+}
+
+.flexing {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25em;
+  font-size: 12px;
+  margin-left: 2em;
+}
+
+.review {
+  font-size: 12px;
+  line-height: 1.5em;
 }
